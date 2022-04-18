@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/f1b660c501.js" crossorigin="anonymous"> </script> 
+        <script src="script.js" defer> </script> 
+    </head>
+    <body>
+        <header>
+            <!-- logo -->
+            <a id="logo" href="index.html">
+                <i class="fa-solid fa-ghost  fa-bounce"></i>
+                <span>The Ghost</span>
+            </a>
+            <!-- main navigation links -->
+            <div class="main_nav">
+                <nav>
+                    <ul>
+                        <li><a href="carrossel.html">Obras</a></li>
+                        <li><a href="https://www.ebiografia.com/sebastiao_salgado/">Saiba +</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                        <img src="https://s.ebiografia.com/img/se/ba/sebastia_o_salgado_ga_nesis_2.jpg" style="width:100%">
+                        <div class="text">Gênesis</div>
+                </div> <!-- mySlides fade -->
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                        <img src="https://s.ebiografia.com/img/se/ba/sebastia_o_salgado_a_xodos_2.jpg" style="width:100%">
+                        <div class="text">Exôdo</div>
+                </div> <!-- mySlides fade -->
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                        <img src="https://s.ebiografia.com/img/se/ba/sebastia_o_salgado_outras_americas.jpg" style="width:100%">
+                        <div class="text">Outras américas</div>
+                </div> <!-- mySlides fade -->
+
+                <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+                <a class="next" onclick="plusSlides(1)"> ❯ </a>
+            </div> <!-- slideshow-container -->
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>      
+            </div>
+        </main>
+    </body>
+</html> 
